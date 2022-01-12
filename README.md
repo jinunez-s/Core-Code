@@ -1,6 +1,6 @@
 # Core-Code
 ## Week 1
-#### 2. Search and answer the question: Java language is compiled or interpreted?
+### 2. Search and answer the question: Java language is compiled or interpreted?
 R. Java language is a interpreted language, also javaScript, python, C#, PHP are interpreted languages. PHP and javascript do not have bytecode and/or JIT compilation. JIT stands for Just in time Complier
 ### 3. Create an algorithm to calculate the equivalent of your local currencty to USD
 
@@ -22,3 +22,5 @@ R. Pseudocode:
   3. Check if the userYearBorn is different from 0, is a negative number or isn't a number. if yes then ask again the userYearBorn value. if not continue.
   4. Rest the userYearBorn to the currentYear, store the value in a variable called userAge.
   5. Show the value of userAge and add some string. (Congratulations! you have userAge years!)
+### 8. Answer to the question: Why are flowcharts important to us as developers?
+R. Flowcharts are import to explaing to others developers how your code or algorithm works, in can be easy to explain where you need the data, what kind of data, what to do with that data and using different symbols for operations, conditionals, decision and terminal. 
