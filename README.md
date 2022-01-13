@@ -35,6 +35,26 @@ significant digit which is often called first digit. When the available symbols 
 digit is reset to 0, and the next digit of higher significance (one position to the left) is incremented (overflow), and incremental
 substitution of the low-order digit resumes. 
 
+| Decimal Number | Binary Number |
+| ----------- | ----------- |
+| 0 | 0 |
+| 1 | 1 |
+| 2 | 10 |
+| 3 | 11 |
+| 4 | 100 |
+| 5 | 101 |
+| 6 | 110 |
+| 7 | 111 |
+| 8 | 1000 |
+| 9 | 1001 |
+| 10 | 1010 |
+| 11 | 1011 |
+| 12 | 1100 |
+| 13 | 1101 |
+| 14 | 1110 |
+| 15 | 1111 |
+
+
 ### 2. Translating 1997 to binary, decimal, and hexadecimal.
     a.	11111001101 – binary
     b.	1997 - decimal
@@ -43,4 +63,5 @@ substitution of the low-order digit resumes.
 ### 3. Translate 51966 into hexadecimal and binary
     a.	CAFE – hexadecimal
     b.	1100101011111110 - binary
-
+## Thursday
+1. Real world applications for JavaScript
