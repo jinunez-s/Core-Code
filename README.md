@@ -64,4 +64,27 @@ substitution of the low-order digit resumes.
     a.	CAFE – hexadecimal
     b.	1100101011111110 - binary
 ## Thursday
-1. Real world applications for JavaScript
+### 1. Real world applications for JavaScript
+
+JavaScript was made for web development to help the creation of web client and web server where this two interacts to display information in the window of the web browser.
+JavaScript has an abundance of libraries and frameworks: AngularJs, ReactJS, SvelteJS, and others.
+On the front-end, JavaScript works for optimize web pages for the use. At the back end, JavaScript positions Node.js to manage dada and handle user requests.
+
+Some applications of JavaScript:
+
+**Web Development**
+- Dynamic and interactive web page
+
+**Server Applications**
+- With Node.js you cand write, test, and debug code. With Node.js you can write server-side software.
+
+**Web Applications**
+- Angular and Vue.js are popular JavaScript Frameworks. 
+- Netflix and Paypal were developed with AngularJs and APIs.
+
+**Games**
+- Use EaselJs library to create along with JavaScript and HTML5 web games. 
+**Mobile Applications**
+- React Native server the purpose of mobile app building. 
+- Support Hybrid apps.
+- Virtual DOM: ReactJS is used for building user interfaces. The DOM is consider an API for HTML and XML allowing the user to read and manipulate the content on a page. 
