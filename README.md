@@ -1,5 +1,5 @@
 # Core-Code
-## Week 1
+## Week 1 - Tuesday
 ### 2. Search and answer the question: Java language is compiled or interpreted?
 R. Java language is a interpreted language, also javaScript, python, C#, PHP are interpreted languages. PHP and javascript do not have bytecode and/or JIT compilation. JIT stands for Just in time Complier
 ### 3. Create an algorithm to calculate the equivalent of your local currencty to USD
@@ -24,3 +24,18 @@ R. Pseudocode:
   5. Show the value of userAge and add some string. (Congratulations! you have userAge years!)
 ### 8. Answer to the question: Why are flowcharts important to us as developers?
 R. Flowcharts are import to explaing to others developers how your code or algorithm works, in can be easy to explain where you need the data, what kind of data, what to do with that data and using different symbols for operations, conditionals, decision and terminal. 
+
+## Wednesday
+### 1. Binary number
+    Is a number expressed in the base-2 numeral system. It only uses two symbols, 0 zero and 1 one.
+    Decimal Counting Decimal counting uses the ten symbols 0 through 9. Counting begins with the incremental substitution of the least           significant digit which is often called first digit. When the available symbols for this position are exhausted, the least significant       digit is reset to 0, and the next digit of higher significance (one position to the left) is incremented (overflow), and incremental         substitution of the low-order digit resumes. 
+
+### 2. Translating 1997 to binary, decimal, and hexadecimal.
+    a.	11111001101 – binary
+    b.	1997 - decimal
+    c.	7CD – hexadecimal
+    
+### 3. Translate 51966 into hexadecimal and binary
+    a.	CAFE – hexadecimal
+    b.	1100101011111110 - binary
+
