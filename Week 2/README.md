@@ -3,3 +3,7 @@
 ## Week goal 🏁
 
 <p>Learn about Javascript structure</p>
+
+# Challenge 1
+
+```
