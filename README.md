@@ -4,5 +4,5 @@
 <h2 align="center">Software Development from scratch 🤖</h2>
 
 ## Index
-- [Week 1️⃣ - Introduction to programming & JavaScript](/week1)
-- [Week 2️⃣ - JavaScript](/week2)
+- [Week 1️⃣ - Introduction to programming & JavaScript](/Week%201)
+- [Week 2️⃣ - JavaScript](/Week%202)
