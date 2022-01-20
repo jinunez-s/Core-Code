@@ -90,7 +90,7 @@ function fakeBin(x){
 }
 ``` 
 
-### this is another way of the solution XD
+### Another way of the solution XD
 ``` 
 
 function fakeBin(x) {
