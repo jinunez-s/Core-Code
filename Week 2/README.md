@@ -1,10 +1,23 @@
 <h1 align="center">Javascript - Week 2</h1>
 
-## Week goal 🏁
+# Week goal 🏁
 
 <p>Learn about Javascript structure</p>
 
-# Challenge 1
+# Index
+- [Monday](#monday)
+- [Tuesday](tuesday)
+- [Wednsday](wednsday)
+- [Thursday](thursday)
+- [Friday](friday)
+
+## Monday
+No code challange
+
+## Tuesday
+
+## Wednsday
+### Challenge 1
 ``` 
 function dutyFree(normPrice, discount, hol){
   let amount, resp = 0;
@@ -29,8 +42,7 @@ function dutyFree(normPrice, discount, hol){
   return Math.floor(hol / saving);
 }
 ``` 
-
-# Challenge 2
+### Challenge 2
 ``` 
 function twiceAsOld(dadYearsOld, sonYearsOld) {
   // your code here
@@ -45,7 +57,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
   }
 }
 ``` 
-# Challenge 3
+### Challenge 3
 ``` 
 function validSpacing(s) {
   // write your code here
@@ -83,7 +95,7 @@ function validSpacing(s) {
 }
 ``` 
 lol not at 100%
-# Challenge 4
+### Challenge 4
 ``` 
 function fakeBin(x){
  return x.split('').map((num) => num > 4 ? 1 : 0).join('');
