@@ -84,4 +84,8 @@ function validSpacing(s) {
 ``` 
 lol not at 100%
 # Challenge 4
-
+``` 
+function fakeBin(x){
+ return x.split('').map((num) => num > 4 ? 1 : 0).join('');
+}
+``` 
