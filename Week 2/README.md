@@ -89,3 +89,11 @@ function fakeBin(x){
  return x.split('').map((num) => num > 4 ? 1 : 0).join('');
 }
 ``` 
+
+### this is another way of the solution XD
+``` 
+
+function fakeBin(x) {
+  return x.replace(/\d/g, d => d < 5 ? 0 : 1);
+}
+``` 
