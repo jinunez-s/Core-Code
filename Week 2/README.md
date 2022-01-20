@@ -15,6 +15,47 @@
 No code challange
 
 ## Tuesday
+### Challenge 1 easy peasy
+### Challenge 2
+``` 
+function uniTotal (string) {
+// total up dem unicodes!
+      if(string === ""){
+        return 0;
+      }
+      var suma = 0;
+      let l = string.length;
+      let value = 0;
+  
+      for(var i = 0; i < l; i++){
+        value = string.charCodeAt(i);        
+        suma = suma + value;
+      }
+      return suma;
+}
+``` 
+### Challenge 3
+``` 
+function getChar(c){
+  return String.fromCharCode(c);
+}
+``` 
+Another solution using const 
+``` 
+const getChar = String.fromCharCode;
+``` 
+### Challenge 4
+``` 
+function addBinary(a,b) {
+  return Number(a+b).toString(2);
+}
+``` 
+IDK why i used Number lol, here's with without that
+``` 
+function addBinary(a,b){
+  return (a+b).toString(2)
+}
+``` 
 
 ## Wednsday
 ### Challenge 1
