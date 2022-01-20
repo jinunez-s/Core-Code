@@ -46,4 +46,40 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 }
 ``` 
 # Challenge 3
+``` 
+function validSpacing(s) {
+  // write your code here
+  let l= 0;
+  l = s.length;
+  //Chequea si el string viene vacio o con espacio
+  if(l == 0 || l == 1){
+    if( l[1] == "" ){      
+      return true;
+    }else if(l[1] == " "){
+      return false;
+    }else{
+      return true;
+    }
+  }  
+  //Chequea si hay espacios al principio y al final
+    if(s[0] == " " || s[(l-1)] == " "){      
+      return false;
+    }else{
+      //verificar si hay espacios entre los espacios de las palabras
+      for(var i = 1; i < l; i++){
+        if(s[i] == " "){
+          //chequear si hay un espacio siguiente
+          if(s[i+1] == " "){
+            return false;
+          }else{
+            return true;
+          }
+        }
+      }
+      return true;
+    }
+  return true;
+  
+}
+``` 
 # Challenge 4
