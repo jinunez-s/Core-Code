@@ -6,10 +6,10 @@
 
 # Index
 - [Monday](#monday)
-- [Tuesday](tuesday)
-- [Wednsday](wednsday)
-- [Thursday](thursday)
-- [Friday](friday)
+- [Tuesday](#tuesday)
+- [Wednsday](#wednsday)
+- [Thursday](#thursday)
+- [Friday](#friday)
 
 ## Monday
 No code challange
