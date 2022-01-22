@@ -235,6 +235,6 @@ rps=(a,b)=>a==b?'Draw!':`Player ${/rp|ps|sr/.test(a[0]+b[0])?2:1} won!`;
 - parseInt() is used to return a integer with a specified radix. 
 - Math.floor() is a function returns the largest integer less than or equal to a given number.
 - split() splits a string using a pattern string to determine where the splits should occur, returning a node-set containing the resulting strings.
-- map() object holds key-value pairs and remembers the original insertion order of the keys.
-- substring() The substring function returns a part of a given string.
-- The [replace()] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) method returns a new string with some or all matches of a pattern replaced by a replacement.
+- [map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) object holds key-value pairs and remembers the original insertion order of the keys.
+- [substring()](https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/substring) The substring function returns a part of a given string.
+- The [replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) method returns a new string with some or all matches of a pattern replaced by a replacement.
