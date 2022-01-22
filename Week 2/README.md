@@ -151,3 +151,23 @@ function fakeBin(x) {
 }
 ``` 
 ## Thursday
+### Challenge 1
+``` 
+function remove (string) {  
+  let l = string.length;
+  let i = l - 1;
+  while ( string[i] === "!" ){
+    i--;
+  }
+  return string.substring(0 , i+1);
+}
+``` 
+Other Solutions using replace
+``` 
+const remove = s => s.replace(/!+$/, '');
+``` 
+``` 
+function remove(s){
+  return s.replace(/!+$/, '');
+}
+``` 
