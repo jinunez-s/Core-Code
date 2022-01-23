@@ -17,7 +17,7 @@ No code challange
 ## Tuesday
 ### Challenge 1 easy peasy
 ### Challenge 2
-``` 
+```javascript
 function uniTotal (string) {
 // total up dem unicodes!
       if(string === ""){
@@ -33,25 +33,25 @@ function uniTotal (string) {
       }
       return suma;
 }
-``` 
+```
 ### Challenge 3
-``` 
+```javascript
 function getChar(c){
   return String.fromCharCode(c);
 }
 ``` 
 Another solution using const 
-``` 
+```javascript
 const getChar = String.fromCharCode;
 ``` 
 ### Challenge 4
-``` 
+```javascript
 function addBinary(a,b) {
   return Number(a+b).toString(2);
 }
 ``` 
 IDK why i used Number lol, here's with without that
-``` 
+```javascript
 function addBinary(a,b){
   return (a+b).toString(2)
 }
@@ -59,7 +59,7 @@ function addBinary(a,b){
 
 ## Wednsday
 ### Challenge 1
-``` 
+```javascript
 function dutyFree(normPrice, discount, hol){
   let amount, resp = 0;
   amount = hol / (normPrice * discount * 0.01);
@@ -72,12 +72,12 @@ function dutyFree(normPrice, discount, hol){
 }
 ``` 
 other simple ways lmfao
-``` 
+```javascript
 function dutyFree(normPrice, discount, hol){
   return(Math.floor(hol / normPrice / discount * 100))
 }
 ``` 
-``` 
+```javascript
 function dutyFree(normPrice, discount, hol){
   var saving = normPrice * discount / 100;
   return Math.floor(hol / saving);
@@ -88,7 +88,7 @@ function dutyFree(normPrice, discount, hol){
 
 
 ### Challenge 2
-``` 
+```javascript
 function twiceAsOld(dadYearsOld, sonYearsOld) {
   // your code here
   let halfAgeDad, t, sonD = 0;
@@ -103,7 +103,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 }
 ``` 
 ### Challenge 3
-``` 
+```javascript
 function validSpacing(s) {
   // write your code here
   let l= 0;
@@ -141,22 +141,21 @@ function validSpacing(s) {
 ``` 
 lol not at 100%
 ### Challenge 4
-``` 
+```javascript
 function fakeBin(x){
  return x.split('').map((num) => num > 4 ? 1 : 0).join('');
 }
 ``` 
 
 ### Another way of the solution XD
-``` 
-
+```javascript
 function fakeBin(x) {
   return x.replace(/\d/g, d => d < 5 ? 0 : 1);
 }
 ``` 
 ## Thursday
 ### Challenge 1
-``` 
+```javascript
 function remove (string) {  
   let l = string.length;
   let i = l - 1;
@@ -167,23 +166,24 @@ function remove (string) {
 }
 ``` 
 Other Solutions using replace
-``` 
+```javascript
 const remove = s => s.replace(/!+$/, '');
 ``` 
-``` 
+And
+```javascript
 function remove(s){
   return s.replace(/!+$/, '');
 }
 ``` 
 ### Challenge 2
 Best solution for me
-``` 
+```javascript
 function shortcut (string) {  
   return string.replace(/[aeiou]/gi, "");  
 }
 ``` 
 If you want another solutions this is
-``` 
+```javascript
 function shortcut(str) {
   return str.split('').filter(function(e) {
     return ['a', 'e', 'i', 'o', 'u'].indexOf(e) == -1 
@@ -191,7 +191,7 @@ function shortcut(str) {
 }
 ``` 
 ### Challenge 3
-``` 
+```javascript
 const rps = (p1, p2) => {
   if( p1 == "scissors" && p2 ==  "paper") {
     return "Player 1 won!";
@@ -216,7 +216,7 @@ const rps = (p1, p2) => {
 };
 ``` 
 Other Solutions that are more clever
-``` 
+```javascript
 const rps = (p1, p2) => {
   if(p1 === p2) {
     return 'Draw!'
@@ -225,7 +225,7 @@ const rps = (p1, p2) => {
 }
 ``` 
 And this is pretty short
-``` 
+```javascript
 rps=(a,b)=>a==b?'Draw!':`Player ${/rp|ps|sr/.test(a[0]+b[0])?2:1} won!`;
 ``` 
 ## Conclusions
