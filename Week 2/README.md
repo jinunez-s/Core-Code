@@ -9,7 +9,7 @@
 - [Tuesday](#tuesday)
 - [Wednsday](#wednsday)
 - [Thursday](#thursday)
-- [Conclusions](#friday)
+- [Conclusions](#conclusions)
 
 ## Monday
 No code challange
