@@ -28,6 +28,33 @@
 13. this
 
 ## Monday
+### Challenge No. 1
+<p> The like system of Facebook</p>
+```javascript
+function likes(names) {
+  // Well it works but i don't like it jeje
+  let likes = ' like this';
+  let count = names.length;
+  if(count == 0){
+    return 'no one likes this';
+  }else if(count == 1){
+    return names + ' likes this';
+  }else if(count == 2){
+    var mensaje = '';
+    mensaje = names[0] + ' and ' + names[1];
+    return mensaje + likes;
+  }else if(count == 3){
+    var mensaje = '';
+    for(var i = 0; i < (count-2); i ++){      
+      mensaje += names[i] + ', ';
+    }
+    return mensaje + names[1] + ' and ' + names[2] + likes; 
+  }else{
+    return names[0] + ', ' + names[1] + ' and ' + (count-2) + ' others like this';
+  }  
+}
+```
+
 ## Tuesday
 ## Wednsday
 ## Thursday
