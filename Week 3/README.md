@@ -13,7 +13,7 @@
 - [Conclusions](#conclusions)
 
 ## Subtopic
-1. Scope
+1. [Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope) The context in which values and expressions are "visible" or can be referenced. If a variable or other expression is not "in the current scope," then it is unavailable for use.
 2. Spread Operator
 3. Template Strings
 4. Arrow Functions
