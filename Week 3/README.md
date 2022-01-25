@@ -5,7 +5,7 @@
 <p>Learn about Javascript behaviour</p>
 
 # Index
-- [Subtopics] (#subtopic)
+- [Week Subtopics](#subtopic)
 - [Monday](#monday)
 - [Tuesday](#tuesday)
 - [Wednsday](#wednsday)
