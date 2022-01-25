@@ -30,7 +30,7 @@
 ## Monday
 ### Challenge No. 1
 <p> The like system of Facebook</p>
-```javascript
+```JavaScript
 function likes(names) {
   // Well it works but i don't like it jeje
   let likes = ' like this';
