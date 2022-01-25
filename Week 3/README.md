@@ -55,7 +55,37 @@ function likes(names) {
   }  
 }
 ```
-
+Other solution more clever
+```javascript
+function likes(names) {
+  names = names || [];
+  switch(names.length){
+    case 0: return 'no one likes this'; break;
+    case 1: return names[0] + ' likes this'; break;
+    case 2: return names[0] + ' and ' + names[1] + ' like this'; break;
+    case 3: return names[0] + ', ' + names[1] + ' and ' + names[2] + ' like this'; break;
+    default: return names[0] + ', ' + names[1] + ' and ' + (names.length - 2) + ' others like this';
+  }
+}
+```
+### Challenge No. 2
+```javascript
+var countBits = function(n) {
+  // By Julich-s :D
+  var binaryNumber, suma = 0;
+  var stringOfTheBinary = "";
+  
+  binaryNumber = Number(n).toString(2);
+  
+  stringOfTheBinary = binaryNumber.toString();
+  for(var i = 0; i < stringOfTheBinary.length; i++){
+    if(stringOfTheBinary[i] == 1){
+        suma += parseInt(stringOfTheBinary[i]);
+    }
+  }
+  return suma;  
+};
+```
 ## Tuesday
 ## Wednsday
 ## Thursday
