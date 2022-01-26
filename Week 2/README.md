@@ -138,8 +138,12 @@ function validSpacing(s) {
   return true;
   
 }
-``` 
-lol not at 100%
+```
+lol not at 100% so instead using this
+```javascript
+  const reg = /(^\s|\s$|\s{2,})/;
+  return !(reg.test(s));
+  ```
 ### Challenge 4
 ```javascript
 function fakeBin(x){
