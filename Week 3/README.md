@@ -14,7 +14,7 @@
 
 ## Subtopic
 1. [Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope) The context in which values and expressions are "visible" or can be referenced. If a variable or other expression is not "in the current scope," then it is unavailable for use.
-2. Spread Operator
+2. [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) Allows to bring Array or string to be expanded where zero or more arguments are expected. 
 3. Template Strings
 4. Arrow Functions
 5. Functions as arguments
@@ -22,9 +22,9 @@
 7. Promises
 8. fetch
 9. Async, Await
-10. Falsy and thruthy values
-11. && and || for deafult and required values
-12. Clousures
+10. Falsy and truthy values
+11. && and || for default and required values
+12. Closures
 13. this
 
 ## Monday
@@ -150,6 +150,13 @@ return matrizDeCodigo.map(l => l.join('')).join(' ');
 }
 ```
 ## Tuesday
+## Your Order List
+```javascript
+function order(words) {
+  return words.split(' ').sort((wordA, wordB) => wordA.match(/\d+/) > wordB.match(/\d+/)).join(' ')
+}
+```
+
 ## Wednsday
 ## Thursday
 ## Conclusions
