@@ -150,13 +150,13 @@ return matrizDeCodigo.map(l => l.join('')).join(' ');
 }
 ```
 ## Tuesday
-## Your Order List
+### Your Order List
 ```javascript
 function order(words) {
   return words.split(' ').sort((wordA, wordB) => wordA.match(/\d+/) > wordB.match(/\d+/)).join(' ')
 }
 ```
-## Counting Duplicates
+### Counting Duplicates
 ```javascript
 function duplicateCount(text){
   let count = {};
@@ -182,7 +182,7 @@ function duplicateCount(text){
   }).length;
 }
 ```
-## Make an Unique Order Array
+### Make an Unique Order Array
 ```javascript
 var uniqueInOrder=function(iterable){
   //your code here - remember iterable can be a string or an array
@@ -195,7 +195,7 @@ var uniqueInOrder=function(iterable){
   return unique;
 }
 ```
-## PigLatin
+### PigLatin
 ```javascript
 function pigIt(str){
   //split the string into an Array
@@ -213,5 +213,24 @@ function pigIt(str){
 }
 ```
 ## Wednsday
+### Valid Parentheses
+```javascript 
+function validParentheses(parens) {
+  let map = {
+    ')': '(',
+    '}': '{',
+    ']': '['
+  }
+  let stck = [];
+  for(let i = 0; i < parens.length; i++){
+    if(parens[i] === '(' || parens[i] === '[' || parens[i] === '{'){
+      stck.push(parens[i]);
+    }else if(stck[stck.length - 1] === map[parens[i]]) {
+      stck.pop();
+    }else return false;
+  }
+  return stck.length ? false : true;
+}
+```
 ## Thursday
 ## Conclusions
