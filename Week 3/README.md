@@ -156,6 +156,32 @@ function order(words) {
   return words.split(' ').sort((wordA, wordB) => wordA.match(/\d+/) > wordB.match(/\d+/)).join(' ')
 }
 ```
+##Counting Duplicates
+```javascript
+function duplicateCount(text){
+  let count = {};
+    let contador = 0;
+    let array_to_count = [];
+    for (let index = 0; index < text.length; index++) {
+        array_to_count.push(text[index].toUpperCase());
+    }
+    array_to_count.forEach(function(i){ count[i] = (count[i] || 0) + 1;});
+    for( const key in count ){
+      if(parseInt(`${count[key]}`) > 1){
+        contador++;
+      }
+    }
+    return contador;
+}
+```
+Another solution will be 
+```javascript
+function duplicateCount(text){
+  return text.toLowerCase().split('').filter(function(val, i, arr){
+    return arr.indexOf(val) !== i && arr.lastIndexOf(val) === i;
+  }).length;
+}
+```
 
 ## Wednsday
 ## Thursday
