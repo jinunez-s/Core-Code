@@ -232,5 +232,24 @@ function validParentheses(parens) {
   return stck.length ? false : true;
 }
 ```
+### Convert String to camel case
+```javascript
+function toCamelCase(str){
+  let newStr = '';
+  if(str){
+   let wordArr = str.split(/[-_]/g);//Use regular expresion and split to catch every dash and underscore in the string
+    for(let i in wordArr){
+      if(i > 0){
+        newStr += wordArr[i].charAt(0).toUpperCase() + wordArr[i].slice(1);
+      }else{
+        newStr += wordArr[i]
+      }
+    }
+  } else{
+    return newStr;
+  }
+  return newStr;
+}
+```
 ## Thursday
 ## Conclusions
