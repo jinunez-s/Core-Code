@@ -195,6 +195,23 @@ var uniqueInOrder=function(iterable){
   return unique;
 }
 ```
+## PigLatin
+```javascript
+function pigIt(str){
+  //split the string into an Array
+  let strArr = str.split(' ');
+  let pigLatin = []; // empty array
+  //iterate the array
+  for(let word of strArr){
+    if((/([a-zA-Z])/).test(word)){//use regular expresion and test to check if the current element begins with alphabetic character
+      pigLatin.push(word.substring(1) + word[0] + "ay");//so it used (1) for substract every character starting from the second. 
+    } else{
+      pigLatin.push(word);
+    }
+  }
+  return pigLatin.join(' ');// convert the array back to string
+}
+```
 ## Wednsday
 ## Thursday
 ## Conclusions
