@@ -182,19 +182,6 @@ function duplicateCount(text){
   }).length;
 }
 ```
-### Make an Unique Order Array
-```javascript
-var uniqueInOrder=function(iterable){
-  //your code here - remember iterable can be a string or an array
-  //Check first is iterable is a array
-  let strArr = Array.isArray(iterable) ? iterable : iterable.split('');
-  //unique is an array for unique values not repeated
-  let unique = strArr.filter((letter, i) => {
-    return strArr[i] != strArr[i + 1];
-  });
-  return unique;
-}
-```
 ### PigLatin
 ```javascript
 function pigIt(str){
@@ -249,6 +236,19 @@ function toCamelCase(str){
     return newStr;
   }
   return newStr;
+}
+```
+### Make an Unique Order Array
+```javascript
+var uniqueInOrder=function(iterable){
+  //your code here - remember iterable can be a string or an array
+  //Check first is iterable is a array
+  let strArr = Array.isArray(iterable) ? iterable : iterable.split('');
+  //unique is an array for unique values not repeated
+  let unique = strArr.filter((letter, i) => {
+    return strArr[i] != strArr[i + 1];
+  });
+  return unique;
 }
 ```
 ## Thursday
