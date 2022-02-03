@@ -156,7 +156,7 @@ function order(words) {
   return words.split(' ').sort((wordA, wordB) => wordA.match(/\d+/) > wordB.match(/\d+/)).join(' ')
 }
 ```
-##Counting Duplicates
+## Counting Duplicates
 ```javascript
 function duplicateCount(text){
   let count = {};
