@@ -252,4 +252,9 @@ var uniqueInOrder=function(iterable){
 }
 ```
 ## Thursday
+
+### Encrypt This!
+```javascript
+
+```
 ## Conclusions
