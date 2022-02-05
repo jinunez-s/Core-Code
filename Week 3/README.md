@@ -275,4 +275,13 @@ var encryptThis = function(text) {
   return encrypt.join(' ');
 }
 ```
+### Format Bart Lisa Maggie
+```javascript
+function list(names){
+  //your code here
+  let len = names.length;
+  if(len ==0)return '';
+  return names.slice(0, len-1).map(p => p.name).join(', ') + (len > 1 ? ' & ' : '') + names[len-1].name;
+}
+```
 ## Conclusions
