@@ -14,7 +14,7 @@
 
 ## Subtopic
 1. [Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope) The context in which values and expressions are "visible" or can be referenced. If a variable or other expression is not "in the current scope," then it is unavailable for use.
-2. Spread Operator
+2. [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) Allows to bring Array or string to be expanded where zero or more arguments are expected. 
 3. Template Strings
 4. Arrow Functions
 5. Functions as arguments
@@ -22,9 +22,9 @@
 7. Promises
 8. fetch
 9. Async, Await
-10. Falsy and thruthy values
-11. && and || for deafult and required values
-12. Clousures
+10. Falsy and truthy values
+11. && and || for default and required values
+12. Closures
 13. this
 
 ## Monday
@@ -86,7 +86,202 @@ var countBits = function(n) {
   return suma;  
 };
 ```
+# MorseCode Challenge 
+```javascript
+decodeMorse = function(morseCode){
+  //your code here
+  const morse = {
+    '.-': 'A',
+    '-...': 'B',
+    '-.-.': 'C',
+    '-..': 'D',
+    '.': 'E',
+    '..-.': 'F',
+    '--.': 'G',
+    '....': 'H',
+    '..': 'I',
+    '.---': 'J',
+    '-.-': 'K',
+    '.-..': 'L',
+    '--': 'M',
+    '-.': 'N',
+    '---': 'O',
+    '.--.': 'P',
+    '--.-': 'Q',
+    '.-.': 'R',
+    '...': 'S',
+    '-': 'T',
+    '..-': 'U',
+    '...-': 'V',
+    '.--': 'W',
+    '-..-': 'X',
+    '-.--': 'Y',
+    '--..': 'Z',
+    '   ': ' ',
+    '...---...': 'SOS',
+    '.----': 1,
+    '..---': 2,
+    '...--': 3,
+    '....-': 4,
+    '.....': 5,
+    '-....': 6,
+    '--...': 7,
+    '---..': 8,
+    '----.': 9,
+    '-----': 0,
+    '.-.-.-': '.',
+    '--..--': ',',
+    '-.-.--':'!'
+  }
+
+let word = morseCode.trim().split('   ');
+let letters = word.map(l => l.split(' '));
+let matrizDeCodigo = [];
+
+for(let i = 0; i < word.length; i++ ){
+    matrizDeCodigo[i] = [];
+    for(let j = 0; j < letters[i].length; j++)
+      if(morse[letters[i][j]]){
+        matrizDeCodigo[i].push(morse[letters[i][j]]);
+      }
+}
+
+return matrizDeCodigo.map(l => l.join('')).join(' ');
+}
+```
 ## Tuesday
+### Your Order List
+```javascript
+function order(words) {
+  return words.split(' ').sort((wordA, wordB) => wordA.match(/\d+/) > wordB.match(/\d+/)).join(' ')
+}
+```
+### Counting Duplicates
+```javascript
+function duplicateCount(text){
+  let count = {};
+    let contador = 0;
+    let array_to_count = [];
+    for (let index = 0; index < text.length; index++) {
+        array_to_count.push(text[index].toUpperCase());
+    }
+    array_to_count.forEach(function(i){ count[i] = (count[i] || 0) + 1;});
+    for( const key in count ){
+      if(parseInt(`${count[key]}`) > 1){
+        contador++;
+      }
+    }
+    return contador;
+}
+```
+Another solution will be 
+```javascript
+function duplicateCount(text){
+  return text.toLowerCase().split('').filter(function(val, i, arr){
+    return arr.indexOf(val) !== i && arr.lastIndexOf(val) === i;
+  }).length;
+}
+```
+### PigLatin
+```javascript
+function pigIt(str){
+  //split the string into an Array
+  let strArr = str.split(' ');
+  let pigLatin = []; // empty array
+  //iterate the array
+  for(let word of strArr){
+    if((/([a-zA-Z])/).test(word)){//use regular expresion and test to check if the current element begins with alphabetic character
+      pigLatin.push(word.substring(1) + word[0] + "ay");//so it used (1) for substract every character starting from the second. 
+    } else{
+      pigLatin.push(word);
+    }
+  }
+  return pigLatin.join(' ');// convert the array back to string
+}
+```
 ## Wednsday
+### Valid Parentheses
+```javascript 
+function validParentheses(parens) {
+  let map = {
+    ')': '(',
+    '}': '{',
+    ']': '['
+  }
+  let stck = [];
+  for(let i = 0; i < parens.length; i++){
+    if(parens[i] === '(' || parens[i] === '[' || parens[i] === '{'){
+      stck.push(parens[i]);
+    }else if(stck[stck.length - 1] === map[parens[i]]) {
+      stck.pop();
+    }else return false;
+  }
+  return stck.length ? false : true;
+}
+```
+### Convert String to camel case
+```javascript
+function toCamelCase(str){
+  let newStr = '';
+  if(str){
+   let wordArr = str.split(/[-_]/g);//Use regular expresion and split to catch every dash and underscore in the string
+    for(let i in wordArr){
+      if(i > 0){
+        newStr += wordArr[i].charAt(0).toUpperCase() + wordArr[i].slice(1);
+      }else{
+        newStr += wordArr[i]
+      }
+    }
+  } else{
+    return newStr;
+  }
+  return newStr;
+}
+```
+### Make an Unique Order Array
+```javascript
+var uniqueInOrder=function(iterable){
+  //your code here - remember iterable can be a string or an array
+  //Check first is iterable is a array
+  let strArr = Array.isArray(iterable) ? iterable : iterable.split('');
+  //unique is an array for unique values not repeated
+  let unique = strArr.filter((letter, i) => {
+    return strArr[i] != strArr[i + 1];
+  });
+  return unique;
+}
+```
 ## Thursday
+
+### Encrypt This!
+```javascript
+var encryptThis = function(text) {
+  let strArr = text.split(' ');
+  let encrypt = [];
+  if(text.length == 1){
+    return (text.charCodeAt(0)).toString();
+  }
+  for(let word of strArr){
+    if((/[a-zA-Z]/).test(word)){
+      if(word.length == 1){
+        encrypt.push(word.charCodeAt(0));
+      }else if(word.length == 2){
+              encrypt.push(word.charCodeAt(0) + word[1] );
+      }else{
+          encrypt.push(word.charCodeAt(0) + word[(word.length - 1)] + word.substring(2,(word.length-1)) + word[1]);
+      }      
+    }
+  }
+  return encrypt.join(' ');
+}
+```
+### Format Bart Lisa Maggie
+```javascript
+function list(names){
+  //your code here
+  let len = names.length;
+  if(len ==0)return '';
+  return names.slice(0, len-1).map(p => p.name).join(', ') + (len > 1 ? ' & ' : '') + names[len-1].name;
+}
+```
 ## Conclusions
