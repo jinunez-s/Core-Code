@@ -8,7 +8,7 @@
 - [Week 2️⃣ - JavaScript](/Week%202)
 - [Week 3️⃣ - JavaScript](/Week%203)
 
-- [Week 4️⃣ - Challenges](challenges/week4)
+- [Week 4️⃣ - Challenges](/Week%204)
 <!--
 - [Week 5️⃣ - Challenges](challenges/week5)
 - [Week 6️⃣ - Challenges](challenges/week6)
