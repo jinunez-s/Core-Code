@@ -46,3 +46,26 @@ console.log(message);
 If the file is called ```app.ts``` you can run in the terminal with the following command
 ```tsc app.ts ```
 ## Introduction to Object Oriented Programming
+
+
+
+
+## Find the Odd Int
+```javascript
+function findOdd(A) {
+  //happy coding!
+  let count = 0;
+  let arr = A.sort((a,b) => a-b);
+  for(let i=0; i< arr.length; i++){
+    for (let j= 0; j < arr.length; j++){
+      if(arr[i] == arr[j]){
+        count++;
+      }
+    }
+    if(count % 2 !== 0){
+      return arr[i];
+    }
+  }
+  return count;
+}
+```
