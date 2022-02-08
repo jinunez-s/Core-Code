@@ -24,12 +24,13 @@ At least two fields must be present in the definition file: name and versión.
 
 ## package.json
 <p>The package.json file is the heart of any Node project. It records important metadata about a project which is required before publishing to NPM, and also defines functional attributes of a project that npm uses to install dependencies, run scripts, and identify the entry point to our package</p>
-Check this link for more info [Link](https://heynode.com/tutorial/what-packagejson/#:~:text=Recap-,The%20package.,entry%20point%20to%20our%20package.)
+Check this link for more info [this](https://heynode.com/tutorial/what-packagejson/#:~:text=Recap-,The%20package.,entry%20point%20to%20our%20package)
 
 ## npx
 <p>NPX is an acronym for Node Package Execute The NPX package comes with npm
 It is an npm package runner that can execute any package that you want from the npm registry without even installing that package
 </p>
+
 ## TypeScript
 
 ## TypeScript and JavaScript
