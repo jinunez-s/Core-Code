@@ -7,7 +7,7 @@
 - [Week 1️⃣ - Introduction to programming & JavaScript](/Week%201)
 - [Week 2️⃣ - JavaScript](/Week%202)
 - [Week 3️⃣ - JavaScript](/Week%203)
-- [Week 4️⃣ - Challenges](/Week%204)
+- [Week 4️⃣ - npm, npx, typescript](/Week%204)
 - [Week 5️⃣ - Challenges](challenges/Week%205)
 <!--
 - [Week 6️⃣ - Challenges](challenges/week6)
