@@ -31,11 +31,23 @@ It is an npm package runner that can execute any package that you want from the 
 </p>
 
 ## TypeScript
-
+<p>
 TypeScript builds on top of JavaScript. First, you write the TypeScript code. Then, you compile the TypeScript code into plain JavaScript code using a TypeScript compiler.
 TypeScript uses the JavaScript syntaxes and adds additional syntaxes for supporting Types.
+</p>
 
 ## TypeScript and JavaScript
+<p>
+JavaScript can be used as a server-side programming language also. But JavaScript became heavy and complex. Then JavaScript was not able to full fill the requirements of an Object-oriented programming language. Then TypeScript was developed by the development team to bridge this gap. 
+</p>
+<h3>Difference between TypeScript and JavaScript</h3>
+<li> TypeScript is known as an Object-oriented programming language whereas JavaScript is a scripting language.
+<li> TypeScript has a feature known as Static typing but JavaScript does not have this feature.
+<li> TypeScript gives support for modules whereas JavaScript does not support modules.
+<li> TypeScript has Interface but JavaScript does not have an Interface.
+<li> Generally, TypeScript takes time to compile the code.
+
+
 
 ## TypeScript Hello World
 The file extension of a typescript file is ```.ts```
@@ -46,3 +58,18 @@ console.log(message);
 If the file is called ```app.ts``` you can run in the terminal with the following command
 ```tsc app.ts ```
 ## Introduction to Object Oriented Programming
+
+### Abstraction
+<p>Data abstraction is the process of hiding certain details and showing only essential information to the user. This can be achieved with either abstract classes or interfaces.</p>
+
+### Inheritance
+<p>It is possible to inherit attributes and methods from one class to another.</p>
+
+### Polymorphism 
+<p>Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+
+Like we specified in the previous chapter; Inheritance lets us inherit attributes and methods from another class. Polymorphism uses those methods to perform different tasks. This allows us to perform a single action in different ways. </p>
+
+### Encapsulation
+<p> The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must set variables, functions private. </p>
+
