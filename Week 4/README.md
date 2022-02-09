@@ -76,7 +76,8 @@ Like we specified in the previous chapter; Inheritance lets us inherit attribute
 
 =======
 
-
+## TypeScript Object Type
+### Basic Typing
 
 ## Find the Odd Int
 ```javascript
