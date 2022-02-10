@@ -77,7 +77,36 @@ Like we specified in the previous chapter; Inheritance lets us inherit attribute
 ## Monday
 
 ### TypeScript Object Types
-
+```typescript
+  //Here we are defining the interface user
+  export interface User {
+    name: String;
+    age: number;
+    occupation: String;
+  }
+  
+  export const users: User[][
+    {
+      name: 'Julio Nunez',
+      age: 24,
+      occupation: 'Software developer'
+    },
+    {
+      name: 'Isaias Nunez',
+      age: 21,
+      occupation: 'Chemical Engineer'
+    }
+  ];
+  
+  export function logPerson(user: User){
+      console.log(`-${user.name}, ${user.age}`);
+   }
+  
+  console.log('Users:');
+  users.forEach(logPerson);
+  
+```
+  
 ### TypeScript Union Types
 
 ### TypeScript in operator
