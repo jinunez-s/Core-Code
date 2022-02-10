@@ -108,7 +108,45 @@ Like we specified in the previous chapter; Inheritance lets us inherit attribute
 ```
   
 ### TypeScript Union Types
-
+```typescript
+  // Here we create two Objects user and admin
+interface User {
+  name: string;
+  age: number;
+  occupation: string;
+}
+interface Admin {
+  name: string;
+  age: number;
+  role: string;
+}
+// Here we create an Person union type that can be User or Admin and use his properties as well. 
+export type Person = User | Admin;
+// Here we set attributes to the Person type and saved in array. 
+export const persons: Person[] = [
+  {
+    name: 'name 1',
+    age: 20,
+    occupation: 'Teacher'
+  },
+  {
+    name: 'name 2',
+    age: 30,
+    occupation: 'Scientist'
+  },
+  {
+    name: 'name 3',
+    age: 33,
+    role: Administrator
+  }
+];
+  // Here we create an function to show using console.log the properties of the Person type. 
+export function logPerson(user: Person){
+    console.log(`-${user.name}, ${user.age}`);
+  }
+  // Here we call the logPerson function for each object in it. 
+persons.forEach(logPerson);
+```
 ### TypeScript in operator
 
 ### Challenge: Find the Odd Int
