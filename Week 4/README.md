@@ -59,7 +59,7 @@ If the file is called ```app.ts``` you can run in the terminal with the followin
 ```tsc app.ts ```
 ## Introduction to Object Oriented Programming
 
-<<<<<<< HEAD
+
 ### Abstraction
 <p>Data abstraction is the process of hiding certain details and showing only essential information to the user. This can be achieved with either abstract classes or interfaces.</p>
 
@@ -74,12 +74,15 @@ Like we specified in the previous chapter; Inheritance lets us inherit attribute
 ### Encapsulation
 <p> The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must set variables, functions private. </p>
 
-=======
+## Monday
 
-## TypeScript Object Type
-### Basic Typing
+### TypeScript Object Types
 
-## Find the Odd Int
+### TypeScript Union Types
+
+### TypeScript in operator
+
+### Challenge: Find the Odd Int
 ```javascript
 function findOdd(A) {
   //happy coding!
@@ -98,4 +101,12 @@ function findOdd(A) {
   return count;
 }
 ```
->>>>>>> dd63ff9c06ed5e9ffa7b8451490d3c0483c10427
+
+## Tuesday
+
+## Wednesday
+
+## Thursday
+
+### Basic Typing
+
