@@ -84,7 +84,7 @@ Like we specified in the previous chapter; Inheritance lets us inherit attribute
     age: number;
     occupation: String;
   }
-  
+// Here we create an constant "users" with 2 positions in the array. Each array has properties name, age and ocupattion. 
   export const users: User[][
     {
       name: 'Julio Nunez',
@@ -97,7 +97,7 @@ Like we specified in the previous chapter; Inheritance lets us inherit attribute
       occupation: 'Chemical Engineer'
     }
   ];
-  
+// We create an function "logPerson" which will use console.log for display the properties of user name and user age. 
   export function logPerson(user: User){
       console.log(`-${user.name}, ${user.age}`);
    }
