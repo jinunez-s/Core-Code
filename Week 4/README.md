@@ -198,6 +198,7 @@ export function logPerson(person: Person) {
 
 persons.forEach(logPerson);
 ```
+## Tuesday
 ### Challenge: Find the Odd Int
 ```javascript
 function findOdd(A) {
@@ -217,12 +218,96 @@ function findOdd(A) {
   return count;
 }
 ```
-
-## Tuesday
-
 ## Wednesday
-
+  ### Arraydiff
+```javascript
+  function arrayDiff(a, b) {
+  return a.filter(x => !b.includes(x));
+}
+```
+  ### Create phone number
+```javascript
+function createPhoneNumber(numbers){
+  return numbers.join('').replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
+}  
+```
+  #### Another solution for this challenges is using a format
+```javascript
+  function createPhoneNumber(numbers){
+  var format = "(xxx) xxx-xxxx";
+  
+  for(var i = 0; i < numbers.length; i++)
+  {
+    format = format.replace('x', numbers[i]);
+  }
+  
+  return format;
+}
+```
 ## Thursday
+  ### Detect Pangram
+  ```javascript
+function isPangram(string){
+  string = string.toLowerCase();
+  return "abcdefghijklmnopqrstuvwxyz".split("").every(function(x){
+    return string.indexOf(x) !== -1;
+  });
+}
+  ```
+   ### Find the missing letter
+  ```javascript
+  function findMissingLetter(array)
+  {
+    const str = "abcdefghijklmnopqrstuvwxyz";
+    const str2arr = array.join("");
+    for (var i = 0; i < str2arr.length; i++) {
+      if (str2arr.charCodeAt(i + 1) - str2arr.charCodeAt(i) != 1) {
+        return String.fromCharCode(str2arr.charCodeAt(i) + 1);
+      }
+    } 
+  }
+  ```
+  ### Find the unique number
+  ```javascript
+  function findUniq(arr) {
+  // do magic
+  const x = arr.filter((elm) => elm === arr[0]);
+  const y = arr.filter((elm) => elm !== arr[0]);
+  
+  return x.length > y.length ? y[0] : x[0]
+}
+  ```
+  ### Reverse or rotate
+  ```javascript
+  function revrot(str, sz) {
+  if (sz < 1 || sz > str.length) 
+    return '';
+
+  let reverse = s => s.split('').reverse().join('');
+  let rotate  = s => s.slice(1) + s.slice(0, 1);
+  let sum_cubes = c => c.split('').reduce((a, b) => a + +b ** 3, 0); 
+
+  return str
+    .match(new RegExp('.{' + sz + '}', 'g'))
+    .map(c => sum_cubes(c) % 2 ? rotate(c) : reverse(c))
+    .join('');
+}
+  ```
+  ### What's your poison?
+  ```javascript
+  function find(rats) {
+    let res = 0;
+    for(let i = 0; i < rats.length; i++){
+      res += Math.pow(2, rats[i]);
+    }
+  return res;
+}
+  ```
+  #### Another solution for this is using reduce
+  ```javascript
+const find = rats => 
+  rats.reduce((a, b) => a + Math.pow(2, b), 0)
+  ```
 
 ### Basic Typing
 
