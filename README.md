@@ -8,7 +8,7 @@
 - [Week 2️⃣ - JavaScript Structure](/Week%202)
 - [Week 3️⃣ - JavaScript Behavior](/Week%203)
 - [Week 4️⃣ - npm, npx, typescript](/Week%204)
-- [Week 5️⃣ - Challenges](challenges/Week%205)
+- [Week 5️⃣ - Challenges](/Week%205)
 <!--
 - [Week 6️⃣ - Challenges](challenges/week6)
 - [Week 7️⃣ - Challenges](challenges/week7) -->
