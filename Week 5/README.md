@@ -1,14 +1,85 @@
-<div align="center">
-  <img src="https://uploads-ssl.webflow.com/5eb2f56932c3562feab232e3/5f73550d00249e7e96c9f3de_Logo.png">
-</div>
-<h2 align="center">Software Development from scratch 🤖</h2>
+## Monday
 
-## Index
-- [Week 1️⃣ - Introduction to programming & JavaScript](/Week%201)
-- [Week 2️⃣ - JavaScript Structure](/Week%202)
-- [Week 3️⃣ - JavaScript Behavior](/Week%203)
-- [Week 4️⃣ - npm, npx, typescript](/Week%204)
-- [Week 5️⃣ - Challenges](challenges/Week%205)
-<!--
-- [Week 6️⃣ - Challenges](challenges/week6)
-- [Week 7️⃣ - Challenges](challenges/week7) -->
+### TypeScript Object Types
+```typescript
+```
+## Tuesday
+## Wednesday
+### Duplciate Encoder
+```typescript
+export function duplicateEncode(word: string){
+    return word.toLowerCase()
+          .split('')
+          .reduce((acc, char, i, arr) => {
+            const symbol = arr.filter(letter => letter === char).length < 2 ? '(' : ')'
+    
+            return acc + symbol;
+    }, '');
+}
+```
+### Find the odd int
+```typescript
+export const findOdd = (xs: number[]): number => {
+    return xs.reduce( (a,b)=> a^b);
+};
+```
+### Which are in?
+```typescript
+function inArray(a1: string[], a2: string[]): string[] {
+    let res : string[] = [];
+    for(let i = 0; i < a1.length; i++){
+
+        for(let j = 0; j < a2.length; j++){
+            if( a2[j].includes(a1[i])){
+                res.push(a1[i]);
+            }
+        }
+
+    }//END FOR I
+
+    return res.sort().filter(function(item, pos, ary) {
+        return !pos || item != ary[pos - 1]; });
+}
+```
+### Sums of Parts
+```typescript
+export function partsSums(ls: number[]): number[] {
+  let sum = ls.reduce((x, y) => x + y, 0);
+  let resultArr = [];
+  let x = 0;
+  
+  if(ls.length === 0) {
+    return [0];
+  }
+  
+  for(let i = 0; i <= ls.length; i += 1) {
+    resultArr.push(sum);
+    x = ls[i];
+    sum -= x;
+  }
+  
+  return resultArr;
+  
+  // let total = ls.reduce((acc, cur) => acc + cur, 0)
+  //return [ ...[total], ...ls.map(num => total -= num) ]
+}
+```
+### Consecutive Strings
+```typescript
+export function longestConsec(strarr: string[], k: number): string {
+  if (strarr.length == 0 || k > strarr.length || k <= 0) return '';
+    
+    let longStr : string = '';
+    
+    let newStr : string[] = [];
+    
+    for (let i = 0; i < strarr.length; i++){
+      newStr = strarr.slice(i, i+k);
+      if (newStr.join('').length > longStr.length ){
+        longStr = newStr.join('');
+      }
+    }
+    
+    return longStr;
+}
+```
