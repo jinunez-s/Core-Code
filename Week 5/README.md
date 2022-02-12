@@ -81,7 +81,7 @@ export function validBraces(braces: string): boolean {
 }
 ```
 ### Tic Tac Toe Table generator
-```typescript
+```javascript
 function displayBoard(board, width){
 let line = "-".repeat(3 * width + (width - 1));
   line = "\n" + line + "\n";
@@ -90,20 +90,16 @@ let line = "-".repeat(3 * width + (width - 1));
   let breaks = [];
   for(let i = 0; i < (board.length / width) - 1; i++){
     breaks.push( Number((width * (i+1)) - 1 ));
-  }
-//   console.log(breaks);
-  
+  }  
   for(let i = 0; i < board.length; i++){
     res += ( board[i] != '') 
             ? " " + board[i] + " "
             : "   ";
     
     if(breaks.indexOf(i) >= 0){
-//       console.log("In", i);
       res += line;
     }
     else{
-//       console.log("NOT In");
       res += "|";
     }
   }
