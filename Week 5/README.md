@@ -30,11 +30,9 @@ export function accum(s: string): string {
 ```
 ### A wolf in sheep's clothing
 ```typescript
-function warnTheSheep(queue: string[]): string {
-
-    const position = queue.reverse().indexOf('wolf');
+export function warnTheSheep(queue: string[]): string {
+  const position = queue.reverse().indexOf('wolf');
     return ( position > 0 ) ? `Oi! Sheep number ${position}! You are about to be eaten by a wolf!` : 'Pls go away and stop eating my sheep';
-  
 }
 ```
 
