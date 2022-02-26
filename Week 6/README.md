@@ -1,4 +1,6 @@
 ## Monday
+### Input Class
+#### Is used to get different inputs from the user
 ```typescript
 import { prompt } from 'enquirer';
 export type UserInput = { data: string };
