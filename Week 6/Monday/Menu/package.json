@@ -1,0 +1,12 @@
+{
+  "name": "monday",
+  "version": "1.0.0",
+  "description": "```typescript\r import { prompt } from 'enquirer';\r export type UserInput = { data: string };\r export type UserFormInput = { data: any };\r export type UserOption = { data: number };\r export type UserOptionById = UserInput;\r export type UserConfirm = { data: boolean };\r export type Choice = { name: string; message: string };\r export type SelectChoice = { option: number; message: string };\r type Choices = Choice[] | string[];\r type UserOptionAux = { data: string };\r type SelectChoices = SelectChoice[];",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run App.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
