@@ -96,6 +96,15 @@ tsc --init
 <code>allowJs:</code> When is enabled the js file will get compiled along with ts files.<br>
 <code>rootDir:</code> It shows the path to the root folder or where ts file is located.<br>
 <code>outDir:</code> Shows where will be the compiled js files. By default after compilation the .ts and .js file will stored in the root.<br>
+<code>removeComments:</code> This will remove all the comments from compiled .js files that you have added in .ts files. <br>
+<code>noEmit:</code> Restric the generation of compiled .js files<br>
+<code>noEmitOnErro:</code> This will avoid generating compiled .js files if the .ts file has an error. <br>
+<code>stric:</code> Enables strict type -checking options.<br>
+<code>noImplicityAny:</code> Shows an error when we don´t give a type to unassigned parameters. <br>
+<code>noUnusedLocals:</code> Shows when a variables is declared but never used. 
+<code>noUnusedParameters:</code> Shows when a function parameters are declared but never used.<br>
+<code>noImplicitReturns:</code> typescript will throw an error if your function has a conditional return. <br>
+
 <text>
 
 ### Change outDir location
