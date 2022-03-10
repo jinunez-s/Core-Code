@@ -78,3 +78,16 @@ npm start
 ```
 tsc index.ts -w
 ```
+#### -w is watch mode this command automatically compile the .ts file whenever the file have changes.
+
+### Configure typescript (Initialize a tsconfog.json)
+```
+tsc --init 
+```
+### Understanding tsconfig.json
+```
+Target: This tells typescript the version of the javascript it should compile into. By default is set to JS version ES2016
+```
+<text>
+<code>lib:</code> It provides libraries that we want to make available to Typescript globally. It contains some default values. <code>DOM</code>
+<text>
