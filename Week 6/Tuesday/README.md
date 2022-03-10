@@ -15,3 +15,14 @@
 *   [Link to Example OOP in javascript](https://github.com/jinunez-s/Core-Code-01/blob/master/Week%206/Tuesday/objectsExample.js)
 
 # Guide
+Typescript is a Object oriented programming language created by Microsoft and it is a superset of JavaScript, typescript is a language of types. typescript code is converted to javascript becoming an advantage for implementing in javascript projects. 
+
+### Why we use typescript?
+<div>
+With typescript we can create classes, objects more easily than with javascript, its easy to write and read. Typescript support object oriented programming which includes, inheritance, access modifiers, encapsulation, polymorphism and abstraction. 
+</div>
+
+### Install Typescript
+```
+npm install -g typescript
+```
