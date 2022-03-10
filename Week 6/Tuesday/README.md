@@ -118,6 +118,6 @@ tsc -w
 <img src="https://github.com/jinunez-s/Core-Code-01/blob/master/Week%206/Tuesday/resources/img1.jpg" alt="dir location">
 
 ### Conclusion
-*   To build applications that are reliable, sustainable, and scalable it good to use typescript and many frameworks are starting to use this language. 
-*   Typescript was created to complement and enhance javascript and not replace it. 
-*   Typescript can work with Angular, React, and Vue. 
+*   To build applications that are reliable, sustainable, and scalable it good to use typescript and many frameworks are starting to use this language. With typescript is more easy to develop object oriented programming, and with tsc and node commands with can compile our ts files into js files which are very useful in order to work with js projects. 
+*   Typescript was created to complement and enhance javascript and not replace it. Typescript can handle error more easily and create more readable code. 
+*   Typescript can work with Angular, React, and Vue, and other tecnologies that handle javascript. 
