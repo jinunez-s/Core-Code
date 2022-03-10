@@ -31,7 +31,27 @@ npm install -g typescript
 npx tsc 
 ```
 
-### npm init (Will create a package.json)
+### Set up a project (Will create a package.json)
 ```
 npm init
+```
+
+### Install a specific package
+```
+npm install --save-dev lite-server
+```
+
+### Add script to start the project
+```
+ "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+```
+
+### For start project
+```
+npm start
 ```
