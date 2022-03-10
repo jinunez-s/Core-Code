@@ -89,13 +89,13 @@ tsc --init
 <code>Target:</code> This tells typescript the version of the javascript it should compile into. By default is set to JS version ES2016
 
 <text>
-<code>lib:</code> It provides libraries that we want to make available to Typescript globally. It contains some default values. <code>DOM</code>, <code>ES2016</code>, <code>DOM.Iterable</code>, and <code>ScriptHost</code> are the default libraries.
-<code> jsx: </code> Controls how JSX constructs are emitted in JavaScript files.
-<code>experimentalDecorators</code> This allow the use of <code>decorators</code> in the ts file. 
-<code>sourceMap: </code> It useful to debug ts file in the browser´s dev tools.
-<code>allowJs: </code> When is enabled the js file will get compiled along with ts files.
-<code>rootDir: </code> It shows the path to the root folder or where ts file is located.
-<code>outDir: </code> Shows where will be the compiled js files. By default after compilation the .ts and .js file will stored in the root. 
+<code>lib:</code> It provides libraries that we want to make available to Typescript globally. It contains some default values. <code>DOM</code>, <code>ES2016</code>, <code>DOM.Iterable</code>, and <code>ScriptHost</code> are the default libraries.<br>
+<code> jsx: </code> Controls how JSX constructs are emitted in JavaScript files.<br>
+<code>experimentalDecorators</code> This allow the use of <code>decorators</code> in the ts file. <br>
+<code>sourceMap: </code> It useful to debug ts file in the browser´s dev tools.<br>
+<code>allowJs: </code> When is enabled the js file will get compiled along with ts files.<br>
+<code>rootDir: </code> It shows the path to the root folder or where ts file is located.<br>
+<code>outDir: </code> Shows where will be the compiled js files. By default after compilation the .ts and .js file will stored in the root. <br>
 <text>
 
 ### Change outDir location
