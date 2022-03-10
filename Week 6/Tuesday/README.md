@@ -106,4 +106,5 @@ tsc --init
 ```
 tsc -w
 ```
+<img src="" alt="dir location">
 
