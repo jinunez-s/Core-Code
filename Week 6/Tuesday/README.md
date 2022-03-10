@@ -55,3 +55,26 @@ npm install --save-dev lite-server
 ```
 npm start
 ```
+### Link your typescript file into a HTML file
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typescript intro</title>
+  </head>
+  <body>
+    <div id="root">
+        <p>Hello...</p>
+    </div>
+    <script src="./index.js"></script> 
+  </body>
+</html>
+```
+
+### To compile typescript into javascript (Web browser only knows javascript)
+```
+tsc index.ts -w
+```
