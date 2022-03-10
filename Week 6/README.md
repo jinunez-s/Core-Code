@@ -1,10 +1,10 @@
 ## Monday
 ### Input Class
 
-Link(https://github.com/jinunez-s/Core-Code-01/tree/master/Week%206/Monday)
+* [Tasks](https://github.com/jinunez-s/Core-Code-01/tree/master/Week%206/Monday)
 
 ## Tuesday
-  Tasks(https://github.com/jinunez-s/Core-Code-01/tree/master/Week%206/Tuesday)
+* [Tasks](https://github.com/jinunez-s/Core-Code-01/tree/master/Week%206/Tuesday)
 ## Wednesday
 
 ## Thursday
