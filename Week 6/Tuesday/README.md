@@ -117,3 +117,7 @@ tsc -w
 ```
 <img src="https://github.com/jinunez-s/Core-Code-01/blob/master/Week%206/Tuesday/resources/img1.jpg" alt="dir location">
 
+### Conclusion
+*   To build applications that are reliable, sustainable, and scalable it good to use typescript and many frameworks are starting to use this language. 
+*   Typescript was created to complement and enhance javascript and not replace it. 
+*   
