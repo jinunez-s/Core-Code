@@ -106,5 +106,5 @@ tsc --init
 ```
 tsc -w
 ```
-<img src="" alt="dir location">
+<img src="https://github.com/jinunez-s/Core-Code-01/blob/master/Week%206/Tuesday/resources/img1.jpg" alt="dir location">
 
