@@ -83,3 +83,18 @@ marioRanked.attack();
 console.log('Reloading... ... ...');
 marioRanked.superPower();
 console.log('END');
+/*
+console:
+Hello my name is Mario
+Hello my name is Peach
+Mario has 2 lives.
+Basic attack:
+Default attack
+Ranked up attack:
+Lava attack
+Reloading... ... ...
+Super Fire Bros
+SUPER FIRE BROS!!
+END
+
+*/

@@ -11,6 +11,7 @@
 10. <b>Constructors:</b> They are special methods that initialize objects. The constructor is called when an object of a class is created. It can be used to set initial values for objects attributes. 
 
 ## Example
-```javascript
+*   [Link to Example OOP in typescript](https://github.com/jinunez-s/Core-Code-01/blob/master/Week%206/Tuesday/objectsExample.ts)
+*   [Link to Example OOP in javascript](https://github.com/jinunez-s/Core-Code-01/blob/master/Week%206/Tuesday/objectsExample.js)
 
-```
+# Guide
