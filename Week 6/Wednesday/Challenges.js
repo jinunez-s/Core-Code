@@ -1,4 +1,3 @@
-"use strict";
 //Challenge No. 1 - Build Tower
 // export const towerBuilder = (nFloors: number): string[] => {
 //     let result: string[] = [];
@@ -9,23 +8,22 @@
 //     }
 //     return result;
 // }
-exports.__esModule = true;
-exports.high = void 0;
 //Highing Scoring World
-var abcd = 'abcdefghijklmnopqrstuvwxyz';
-var getLetterScore = function (str) { return abcd.indexOf(str) + 1; };
-var getWordScore = function (str) {
-    return str
-        .split('')
-        .map(getLetterScore)
-        .reduce(function (acc, n) { return acc + n; }, 0);
-};
-var high = function (str) {
-    return str
-        .split(' ')
-        .reduce(function (acc, value) {
-        return getWordScore(value) > getWordScore(value) ? value : acc;
-    });
-};
-exports.high = high;
-console.log((0, exports.high)('hola taxi como estan estaran zzzzzzzzzsqwx'));
+// const abcd = 'abcdefghijklmnopqrstuvwxyz';
+// const getLetterScore =(str: string): number => abcd.indexOf(str)+1;
+// const getWordScore = (str: string): number => 
+//     str
+//         .split('')
+//         .map(getLetterScore)
+//         .reduce((acc, n)=> acc+n, 0)
+// export const high = (str: string): string => 
+//     str
+//         .split(' ')
+//         .reduce((acc, value) => 
+//             getWordScore(value) > getWordScore(value) ? value : acc
+//         )
+// console.log(high('hol'));
+//Equal sides of an Array
+var arr = [1, 2, 3, 4];
+var suma = arr.reduce(function (a, b) { return a + b; }, 0);
+console.log(suma);
