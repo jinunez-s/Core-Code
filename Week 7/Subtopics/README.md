@@ -17,7 +17,7 @@ tsc --target ES5 --experimentalDecorators
 ```
 Decorator is a special kind of declaration that can be attached to a class declaration, method, accessor, property or parameter. Decorators use the form <code>@expression</code>, where expression must be evaluate to a function that will be called at runtime with information about the decorated declaration. 
 
-<td><tr>type</tr><tr><code>@sealed</code></tr>
+type<code>@sealed</code>
 
 ```typescript
   function sealed(target) {
