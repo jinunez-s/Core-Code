@@ -6,7 +6,7 @@
 ## Tuesday
 * [Tasks](https://github.com/jinunez-s/Core-Code-01/tree/master/Week%206/Tuesday)
 ## Wednesday
-
+* [Tasks](https://github.com/jinunez-s/Core-Code-01/blob/master/Week%206/Wednesday/Challenges.ts)
 ## Thursday
 
 ### OOP Absstraction, Inheritance, Polymorphism and Encapsulation.
