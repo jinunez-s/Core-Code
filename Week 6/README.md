@@ -8,7 +8,7 @@
 ## Wednesday
 * [Tasks](https://github.com/jinunez-s/Core-Code-01/blob/master/Week%206/Wednesday/Challenges.ts)
 ## Thursday
-
+* Done
 ### OOP Absstraction, Inheritance, Polymorphism and Encapsulation.
 
 ```java
