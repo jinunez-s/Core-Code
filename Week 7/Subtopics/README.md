@@ -25,6 +25,15 @@ type<code>@sealed</code>
   }
 ```
 
+#### Decorator Factories
+Decorator factory is to customize how a decorator is applied to a declaration. 
+
+#### Decorator Composition
+Multiple decorators can be applied to a declaration on a single line
+```
+@f @g x
+```
+
 ### Modules
 
 ### namespaces
