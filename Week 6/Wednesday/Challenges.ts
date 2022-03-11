@@ -8,3 +8,22 @@ export const towerBuilder = (nFloors: number): string[] => {
     }
     return result;
 }
+
+//Highing Scoring World
+const abcd = 'abcdefghijklmnopqrstuvwxyz';
+
+const getLetterScore =(str: string): number => abcd.indexOf(str)+1;
+
+const getWordScore = (str: string): number => 
+    str
+        .split('')
+        .map(getLetterScore)
+        .reduce((acc, n)=> acc+n, 0)
+
+export const high = (str: string): string => 
+    str
+        .split(' ')
+        .reduce((acc, value) => 
+            getWordScore(value) > getWordScore(value) ? value : acc
+        )
+console.log(high('hol'));
