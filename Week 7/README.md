@@ -4,12 +4,9 @@
 <h2 align="center">Software Development from scratch 🤖</h2>
 
 ## Index
-- [Week 1️⃣ - Introduction to programming & JavaScript](/Week%201)
-- [Week 2️⃣ - JavaScript Structure](/Week%202)
-- [Week 3️⃣ - JavaScript Behavior](/Week%203)
-- [Week 4️⃣ - npm, npx, Typescript](/Week%204)
-- [Week 5️⃣ - TypeScript](/Week%205)
-- [Week 6️⃣ - TypeScript](/Week%206)
-- [Week 7️⃣ - TypeScript](/Week%207)
+- [Monday](/Week%201)
+- [Tuesday](/Week%202)
+- [Wednesday](/Week%203)
+- [Thursday](/Week%204)
 <!-- 
 - [Week 7️⃣ - Challenges](challenges/week7) -->

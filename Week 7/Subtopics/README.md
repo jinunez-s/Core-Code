@@ -117,12 +117,12 @@ x = y; // Error
 ### Typescript types
 
 * Array: Sepecify the type of array. <code>number[]</code>, <code>string[]</code> or use <code>const name: any[]</code>
-* Tuple: A tuple type is another sort of Array type that knows exactly how many elements it contains, and exactly which types it contains at specific positions. [See Example]()
+* Tuple: A tuple type is another sort of Array type that knows exactly how many elements it contains, and exactly which types it contains at specific positions. [See Example](https://github.com/jinunez-s/Core-Code-01/blob/master/Week%207/Subtopics/example.ts)
 * Enum: Enums allow a developer to define a set of named constants. Numeric enums (1, 2, 3), String enums (Copy the string), Heterogeneous enums (No = 0, Yes = "YES)
-* Union: 
-* Literals
-* Any
-* Void
+* Union: TypeScript allows us to use more than one data type for a variable or a function parameter. This is called union type. [See Example](https://www.tutorialsteacher.com/typescript/typescript-union)
+* Literals: In javascript we can set const for do not change what is held inside variable. In typescript this is reflected by literals. [See example]
+* Any: TypeScript also has a special type, any, that you can use whenever you don’t want a particular value to cause typechecking errors.
+* Void: 
 * Unknown 
 * Never
 * Function types
