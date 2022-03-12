@@ -4,9 +4,9 @@
 <h2 align="center">Software Development from scratch 🤖</h2>
 
 ## Index
-- [Monday](/Week%201)
-- [Tuesday](/Week%202)
-- [Wednesday](/Week%203)
-- [Thursday](/Week%204)
+- [Monday](https://github.com/jinunez-s/Core-Code-01/tree/master/Week%207/Monday)
+- [Tuesday](https://github.com/jinunez-s/Core-Code-01/tree/master/Week%207/Tuesday)
+- [Wednesday](https://github.com/jinunez-s/Core-Code-01/tree/master/Week%207/Wednesday)
+- [Thursday](https://github.com/jinunez-s/Core-Code-01/tree/master/Week%207/Thursday)
 <!-- 
 - [Week 7️⃣ - Challenges](challenges/week7) -->
