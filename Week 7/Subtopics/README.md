@@ -117,7 +117,7 @@ x = y; // Error
 ### Typescript types
 
 * Array: Sepecify the type of array. <code>number[]</code>, <code>string[]</code> or use <code>const name: any[]</code>
-* Tuple: 
+* Tuple: A tuple type is another sort of Array type that knows exactly how many elements it contains, and exactly which types it contains at specific positions. [See Example]()
 * Enum: Enums allow a developer to define a set of named constants. Numeric enums (1, 2, 3), String enums (Copy the string), Heterogeneous enums (No = 0, Yes = "YES)
 * Union: 
 * Literals
