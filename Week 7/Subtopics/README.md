@@ -77,6 +77,16 @@ export * from "./ParseIntBasedZipCodeValidator"; //  exports the 'ParseIntBasedZ
 // of the 'ZipCodeValidator' class from 'ZipCodeValidator.ts'
 // module.
 ```
+#### Default exports
+
+Each module can optionally export a default export. Default exports are marked with the keyword default; and there can only be one default export per module. default exports are imported using a different import form.
+
+default exports are really handy. For instance, a library like jQuery might have a default export of jQuery or $, which we’d probably also import under the name $ or jQuery.
+
+```typescript
+declare let $: JQuery;
+export default $;
+```
 
 ### namespaces
 
