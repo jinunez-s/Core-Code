@@ -55,6 +55,29 @@ export class ZipCodeValidator implements StringValidator {
   }
 }
 ```
+
+Export statements
+Export statements are handy when export need to be renamed for consumers.
+```typescript
+class ZipCodeValidator implements StringValidator {
+  isAcceptable(s: string) {
+    return s.length === 5 && numberRegexp.test(s);
+  }
+}
+export { ZipCodeValidator };
+export { ZipCodeValidator as mainValidator };
+```
+
+Optionally, a module can wrap one or more modules and combine all their exports using export * from "module" syntax.
+```typescript
+export * from "./StringValidator"; // exports 'StringValidator' interface
+export * from "./ZipCodeValidator"; // exports 'ZipCodeValidator' class and 'numberRegexp' constant value
+export * from "./ParseIntBasedZipCodeValidator"; //  exports the 'ParseIntBasedZipCodeValidator' class
+// and re-exports 'RegExpBasedZipCodeValidator' as alias
+// of the 'ZipCodeValidator' class from 'ZipCodeValidator.ts'
+// module.
+```
+
 ### namespaces
 
 ### Type Assertion
