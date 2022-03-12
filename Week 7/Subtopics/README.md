@@ -88,6 +88,17 @@ declare let $: JQuery;
 export default $;
 ```
 
+Default exports can also be just values
+OneTwoThree.ts
+```typescript
+export default "123";
+```
+Log.ts
+```typescript
+import num from "./OneTwoThree";
+console.log(num); // "123"
+```
+
 ### namespaces
 
 ### Type Assertion
