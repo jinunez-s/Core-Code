@@ -56,7 +56,7 @@ export class ZipCodeValidator implements StringValidator {
 }
 ```
 
-Export statements
+### Export statements
 Export statements are handy when export need to be renamed for consumers.
 ```typescript
 class ZipCodeValidator implements StringValidator {
