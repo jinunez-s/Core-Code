@@ -88,7 +88,7 @@ declare let $: JQuery;
 export default $;
 ```
 
-Default exports can also be just values
+Default exports can also be just values. <br>
 OneTwoThree.ts
 ```typescript
 export default "123";
