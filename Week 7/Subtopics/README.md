@@ -101,14 +101,25 @@ console.log(num); // "123"
 
 ### namespaces
 
+The module keyword was used when declaring an internal module, the namespace keyword can and should be used instead. This avoids confusing new users by overloading them with similarly named terms.
+
 ### Type Assertion
+
+Type compatibility in TypeScript is based on structural subtyping. The basic rule for TypeScript’s structural type system is that x is compatible with y if y has at least the same members as x.
+
+```typescript
+let x = (a: number) => 0;
+let y = (b: number, s: string) => 0;
+y = x; // OK
+x = y; // Error
+```
 
 ### Typescript types
 
-* Array
-* Tuple
-* Enum
-* Union
+* Array: Sepecify the type of array. <code>number[]</code>, <code>string[]</code> or use <code>const name: any[]</code>
+* Tuple: 
+* Enum: Enums allow a developer to define a set of named constants. Numeric enums (1, 2, 3), String enums (Copy the string), Heterogeneous enums (No = 0, Yes = "YES)
+* Union: 
 * Literals
 * Any
 * Void
@@ -117,3 +128,5 @@ console.log(num); // "123"
 * Function types
 * Types Alias
 
+
+The DOM API can be used to change the document structure, style, and content. The API is so powerful that countless frontend frameworks (jQuery, React, Angular, etc.) have been developed around it in order to make dynamic websites even easier to develop.
