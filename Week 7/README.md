@@ -10,5 +10,6 @@
 - [Week 4️⃣ - npm, npx, Typescript](/Week%204)
 - [Week 5️⃣ - TypeScript](/Week%205)
 - [Week 6️⃣ - TypeScript](/Week%206)
+- [Week 7️⃣ - TypeScript](/Week%207)
 <!-- 
 - [Week 7️⃣ - Challenges](challenges/week7) -->
