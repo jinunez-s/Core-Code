@@ -126,7 +126,7 @@ x = y; // Error
 * Unknown: All types are assignable to unknown. The unknown type is only assignable to the any type and the unknown type itself. [See Example](https://mariusschulz.com/blog/the-unknown-type-in-typescript)
 * Never: TypeScript introduced a new type never, which indicates the values that will never occur. [see Example](https://www.tutorialsteacher.com/typescript/typescript-never)
 * Function types: Named Functions, Anonymous Functions, Function Parameters, Optional Parameters and Default Parameters. [See Example](https://www.tutorialsteacher.com/typescript/typescript-function)
-* Types Alias: We’ve been using object types and union types by writing them directly in type annotations. This is convenient, but it’s common to want to use the same type more than once and refer to it by a single name. A type alias is exactly that - a name for any type. [See Example]()
+* Types Alias: We’ve been using object types and union types by writing them directly in type annotations. This is convenient, but it’s common to want to use the same type more than once and refer to it by a single name. A type alias is exactly that - a name for any type. [See Example](https://github.com/jinunez-s/Core-Code-01/blob/master/Week%207/Subtopics/typeExample.ts)
 
 
 The DOM API can be used to change the document structure, style, and content. The API is so powerful that countless frontend frameworks (jQuery, React, Angular, etc.) have been developed around it in order to make dynamic websites even easier to develop.
