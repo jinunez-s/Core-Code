@@ -35,7 +35,26 @@ Multiple decorators can be applied to a declaration on a single line
 ```
 
 ### Modules
+Modules are executed within their own scope, not in the global scope; this means that variables, functions, classes, etc. declared in a module are not visible outside the module unless they are explicity exported using one fot the export forms. To consume a variable, function, class, interface, etc. exported from a different module, it has to be imported using one of the import forms.<br>
+Exporting a declaration
 
+StringValidator.ts
+```typescript
+export interface StringValidator {
+  isAcceptable(s: string): boolean;
+}
+```
+
+ZipCodeValidator.ts
+```typescript
+import { StringValidator } from "./StringValidator";
+export const numberRegexp = /^[0-9]+$/;
+export class ZipCodeValidator implements StringValidator {
+  isAcceptable(s: string) {
+    return s.length === 5 && numberRegexp.test(s);
+  }
+}
+```
 ### namespaces
 
 ### Type Assertion
