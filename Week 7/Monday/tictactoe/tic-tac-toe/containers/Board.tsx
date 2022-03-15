@@ -27,6 +27,7 @@ function Board(){
     const [currentPlayer, setCurrentPlayer] = useState<'X' | 'O'>(
         Math.round(Math.random()* 1) === 1 ? 'X' : 'O'
     );
+    
     const [winner, setWinner] = useState<Player>(null);
 
     function reset(){
