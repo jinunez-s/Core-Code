@@ -10,5 +10,11 @@
 - [Week 4️⃣ - npm, npx, Typescript](/Week%204)
 - [Week 5️⃣ - TypeScript](/Week%205)
 - [Week 6️⃣ - TypeScript](/Week%206)
+- [Week 7️⃣ - TypeScript](/Week%207)
+- [Week 8️⃣ - HTML & CSS](/Week%208)
+- [Week 9️⃣ - React & Node](/Week%209)
+- [Week 🔟 - Node & Database](/Week%210)
+- [Week 1️⃣1️⃣ - S.O.L.I.D ](/Week%2011)
+- [Week 1️⃣2️⃣ - Final P.](/Week%2012)
 <!-- 
 - [Week 7️⃣ - Challenges](challenges/week7) -->
