@@ -3,7 +3,6 @@
 </div>
 <h2 align="center">Software Development from scratch 🤖</h2>
 
-## Index
 ### Tuesday
 
 * <b>What is V8 javascript engine?</b> <br> V8 is the name of the JavaScript engine that powers Google Chrome. It's the thing that takes our JavaScript and executes it while browsing with Chrome.
@@ -21,5 +20,23 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
  ```
  nvm install node
  ```
+
+ ### Tuesday
+* <b>re APIs only available on the Internet?</b><br> APIs can work offline, the API is able to control and communicate with software localy. 
+* JSON files can be used to manage data within them and can handle many types of data at the same time. They are useful for sending data through applications such as APIs.
+* HTTP stands for Hypertext Transfer Protocol. It is used at the application layer to disseminate hypermedia documents and runs on browsers and web servers. It follows the client-server model in which a client establishes a connection by making a request to a server and waits for a response. 
+
+
+### Thursday
+*  Express.js  Is a free and open-source web application framework for Node. js. It is used for designing and building web applications quickly and easily. Express includes code ready to use to create single page, multi-page or hybrid web applications. Features:
+
+1.  Faster Server side development
+2. Middleware
+3. Routing
+4. Templating
+5. Debugging
+
+* Postman : API platform for building and using APIs, it useful to test RESTful APIs making POST, PUT, DELETE, GET methods. 
+
 <!-- 
 - [Week 7️⃣ - Challenges](challenges/week7) -->
