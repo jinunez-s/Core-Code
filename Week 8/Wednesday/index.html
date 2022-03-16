@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUDI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="full-img" id="fullimgBox">
+        <img src="audi2.jpg" id="fullimg">
+        <span onclick="closeFullimg()">X</span>
+    </div>
+    
+    <center>        
+        <div class="grid-container">
+            <div class="grid-item">
+                <h2>Francia Campeones 2018</h2>
+                <img src="img/1.jpg" width="800px" height="500px" onclick="openFullimg(this.src)">
+            </div>
+            <div class="grid-item">
+                <h2>Alemania Campeones 2014</h2>
+                <img src="img/2.jpg" onclick="openFullimg(this.src)">
+            </div>
+            <div class="grid-item">
+                <h2>España Campeones 2010</h2>
+                <img src="img/3.jpg" onclick="openFullimg(this.src)">
+            </div>
+            <div class="grid-item">
+                <h2>Italia Campeones 2006</h2>
+                <img src="img/4.jpg" onclick="openFullimg(this.src)">
+            </div>
+            <div class="grid-item">
+                <h2>Brasil Campeones 2002</h2>
+                <img src="img/5.jpg" onclick="openFullimg(this.src)">
+            </div>
+        </div>
+    </center>    
+    
+<script>
+    var fullimgBox = document.getElementById("fullimgBox");
+    var fullimg = document.getElementById("fullimg");
+
+    function openFullimg(pic){
+        fullimgBox.style.display = "flex";
+        fullimg.src = pic;
+    }
+
+    function closeFullimg(){
+        fullimgBox.style.display = "none";
+    }
+</script>
+</body>
+</html>
