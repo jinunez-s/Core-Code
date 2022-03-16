@@ -3,10 +3,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AUDI</title>
+    <title>Core Code</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="https://www.google.com/">Google</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.bing.com/">Bing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.baidu.com/">Baidu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://espanol.yahoo.com/?p=us">Yahoo</a>
+        </li>
+      </ul>
+
     <div class="full-img" id="fullimgBox">
         <img src="audi2.jpg" id="fullimg">
         <span onclick="closeFullimg()">X</span>
@@ -34,9 +50,16 @@
                 <h2>Brasil Campeones 2002</h2>
                 <img src="img/5.jpg" onclick="openFullimg(this.src)">
             </div>
+            <div class="grid-item">
+                <h2>Visit the Marca site here </h2>
+                <a href="https://www.marca.com/" target="_blank">
+                <img src="img/6.jpg">
+                </a>
+            </div>
         </div>
     </center>    
-    
+    Made it in 30 min.
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script>
     var fullimgBox = document.getElementById("fullimgBox");
     var fullimg = document.getElementById("fullimg");
