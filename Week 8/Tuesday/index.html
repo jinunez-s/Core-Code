@@ -5,11 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Challenge Numbers of different color</title>
+    <title>Core Code</title>
 </head>
 <body>
-    <button class="btn btn-primary">CLICK ME </button>
+    <center><h1>Challenge</h1></center>
+    <center><h2>Numbers: </h2></center>
+    <div class="container" style="background-color: aliceblue; border-radius: 50px; width: 100%; height: 100%;">
+    <center>
+        <h3>
+            <p style="color:blue"> 1 </p>
+            <p style="color:tomato"> 2 </p>
+            <p style="color:orange"> 3 </p>
+            <p style="color:slateblue"> 4 </p>
+            <p style="color:dodgerblue"> 5 </p>
+            <p style="color:blue"> 6 </p>
+            <p style="color:tomato"> 7 </p>
+            <p style="color:orange"> 8 </p>
+            <p style="color:slateblue"> 9 </p>
+            <p style="color:dodgerblue"> 10 </p>
+        </h3>
+    </center>
+    </div>
+    <center><h2>Unordered  List: </h2></center>
+    <div class="container" style="background-color: aliceblue; border-radius: 20px; width: 100%; height: 100%;">
+        <center>
+            <h3>Last match of Comunicaciones FC</h3>
+        </center>
+                <ul>
+                    <li> Comunicaciones 4 - 2 New York City </li>
+                    <li> Comunicaciones 1 - 0 Nueva Concepción </li>
+                    <li> Comunicaciones 1 - 3 New York City </li>
+                    <li> Comunicaciones 2 - 0 Malacateco </li>
+                </ul>
+        
+    </div>
+    <center><h2>Ordered  List: </h2></center>
+    <div class="container" style="background-color: aliceblue; border-radius: 20px; width: 100%; height: 100%;">
+        <center>
+            <h3>Liga Nacional de Guatemala Standings</h3>
+        </center>        
+        <ol>
+            <li> Malacateco </li>
+            <li> Guastatoya </li>
+            <li style="color: blue;"> Comunicaciones </li>
+            <li> Coban Imperial </li>
+            <li> Municipal </li>
+        </ol>            
+    </div>
 
+
+    <center><h2>Random Paragraphs </h2></center>
+    <center>
+    <button class="button" onclick="RandomID();">RUN</button><br>
+<!--    <input class="input" type="text" id="textrandom" size="5" readonly/>-->
+    <textarea class="input" id="textrandom" rows="5" cols="50">
+
+    </textarea>
+
+    </center>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        function RandomID(){
+            var value;
+            var rnd = Math.floor(Math.random() * 11);
+            if(rnd > 7){
+                value = "¿Qué mensaje le da a la afición de Comunicaciones? “La verdad a la gente le debemos agradecer, tanto a los de Guatemala y a los que estuvieron en Connecticut, en ambos juegos nos sentimos como locales. Fueron parte fundamental para ir adelante y tratar de revertir los juegos”.";
+            }else{
+                value = "FC Barcelona: Lionel Messi, Luis Suarez and Neymar brought glory and pantheon football, but they gradually imposed their standards and preferences for when training was staged and whether it began on time or not, as well as its intensity.";
+            }
+
+            document.getElementById('textrandom').value = value;
+        }
+    </script>
+
 </body>
 </html>
