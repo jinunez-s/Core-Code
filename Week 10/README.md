@@ -70,11 +70,27 @@ export default EndpointHandler
 
 ### Database basics
 
+A database is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS). The data can then be easily accessed, managed, modified, updated, controlled, and organized. Most databases use <b>structured query language</b> (SQL) for writing and querying data. SQL is a programming language used by nearly all relational databases to query, manipulate, and define data, and to provide access control.
 
+You can see [here](https://www.oracle.com/database/what-is-database/) types of databases.
 
 * SQLite
+SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day.
 
 * Schema Creation
+
+Every SQLite database contains a single "schema table" that stores the schema for that database. The schema for a database is a description of all of the other tables, indexes, triggers, and views that are contained within the database. The schema table looks like this:
+
+```sql
+CREATE TABLE sqlite_schema(
+  type text,
+  name text,
+  tbl_name text,
+  rootpage integer,
+  sql text
+);
+```
+The schema table can always be referenced using the name "sqlite_schema", especially if qualifed by the schema name like "main.sqlite_schema" or "temp.sqlite_schema".
 
 * Tables
 
@@ -86,5 +102,14 @@ Rows of a table represent the number of observable entities we are looking at. T
 
 * Queries
 
+A query is a request for data or information from a database table or combination of tables. This data may be generated as results returned by Structured Query Language (SQL) or as pictorials, graphs or complex results. 
+
 * Database Connection
 
+In order for you application whether a web application, native or mobile to utilize the data stored in a database it must be able to connect and communicate with it. the SQL has many difference from programming languages. 
+
+Connection Pool: is a cache of db connections maintained so that the connecitons can be reused when future request to the database are required. 
+
+Cursor: is a control strucutre that enables traversal over the records in a db. Akin to the programming language concept of iterator. The cursor can only reference one row at a time, but can move to other rows of the results set as needed. 
+
+Methods of communicating: Embedded SQL, Stored Procedures, Driver / Provider (CLI) 
