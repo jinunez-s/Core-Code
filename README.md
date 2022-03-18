@@ -13,7 +13,7 @@
 - [Week 7️⃣ - TypeScript](/Week%207)
 - [Week 8️⃣ - HTML & CSS](/Week%208)
 - [Week 9️⃣ - React & Node](/Week%209)
-- [Week 🔟 - Node & Database](/Week%210)
+- [Week 🔟 - Node & Database](/Week%2010)
 - [Week 1️⃣1️⃣ - S.O.L.I.D ](/Week%2011)
 - [Week 1️⃣2️⃣ - Final P.](/Week%2012)
 <!-- 
