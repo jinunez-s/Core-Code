@@ -3,7 +3,7 @@
 </div>
 <h2 align="center">Software Development from scratch 🤖</h2>
 
-## Index
+## Topics
 ### Endpoint Routes
 
 An Endpoint is a remote computing device that communicates back and forth with a network to whcih it is connected. Example include: Desktops, Laptops, Smartphones, Tablets, Servers, Worksatations, IOT devices. Enpoints are functions available through the API, this can be things like retrieving the API index, updating a post, or deleting a comment. Endpoints perform a specific function, taking some number of parameters and return data to the client. 
