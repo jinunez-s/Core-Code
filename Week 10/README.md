@@ -34,7 +34,9 @@ app.put('/', (err, res) => {
 ```
 ### Request Handlers
 
+The endpoint handler is a watcher and verifier of all the incoming request to the server. It runs important security validations on every incoming request for any endpoint. Some example are: Authentications Check, Captcha Token Check, JWT Verify.
 
+If the reguests is processed by the server it will have status 200, otherwise a 400/403 forbidden error is thrown based on the validations results to the client. 
 
 ### Database basics
 
