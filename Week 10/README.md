@@ -4,17 +4,47 @@
 <h2 align="center">Software Development from scratch 🤖</h2>
 
 ## Index
-- [Week 1️⃣ - Introduction to programming & JavaScript](/Week%201)
-- [Week 2️⃣ - JavaScript Structure](/Week%202)
-- [Week 3️⃣ - JavaScript Behavior](/Week%203)
-- [Week 4️⃣ - npm, npx, Typescript](/Week%204)
-- [Week 5️⃣ - TypeScript](/Week%205)
-- [Week 6️⃣ - TypeScript](/Week%206)
-- [Week 7️⃣ - TypeScript](/Week%207)
-- [Week 8️⃣ - HTML & CSS](/Week%208)
-- [Week 9️⃣ - React & Node](/Week%209)
-- [Week 🔟 - Node & Database](/Week%210)
-- [Week 1️⃣1️⃣ - S.O.L.I.D ](/Week%2011)
-- [Week 1️⃣2️⃣ - Final P.](/Week%2012)
-<!-- 
-- [Week 7️⃣ - Challenges](challenges/week7) -->
+### Endpoint Routes
+
+An Endpoint is a remote computing device that communicates back and forth with a network to whcih it is connected. Example include: Desktops, Laptops, Smartphones, Tablets, Servers, Worksatations, IOT devices. Enpoints are functions available through the API, this can be things like retrieving the API index, updating a post, or deleting a comment. Endpoints perform a specific function, taking some number of parameters and return data to the client. 
+
+A route is the "name" you use to access endpoints, used in the URL. A route can have multiple endpoints associated with it, and which is used dependes on the HTTP verb. 
+
+In this [link](https://medium.com/@wlodarczyk_j/tutorial-handling-endpoints-in-node-js-and-express-ce26cb550c28) we can see how to handle endpoints in nodejs and Express, in summarize the frist step is to set basic configuration.
+
+Here are some example of endpoints where can handle different HTTP request.
+```javascript
+app.get('/', (err, res) => {
+	res.status(200);
+	res.json({ working: true });
+	res.end();
+});
+
+app.post('/', (err, res) => {
+	res.status(200);
+	res.send('working');
+	res.end();
+});
+
+app.put('/', (err, res) => {
+	res.status(200);
+	res.send('working');
+	res.end();
+});
+```
+### Request Handlers
+
+
+
+### Database basics
+
+* SQLite
+
+* Schema Creation
+
+* Tables
+
+* Queries
+
+* Database Connection
+
