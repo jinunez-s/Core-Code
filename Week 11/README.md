@@ -5,7 +5,7 @@
 
 ## S.O.L.I.D.
 
-Es una serie de normas o reglas para construir codigo, entre ellos se encuentra hacer el codigo más legible, escalable y fácil de detectar errores. El nombre solid proviene de las siglas de: 
+It is a set of standards or rules for building code, among them is to make the code more readable, scalable and easy to detect errors. The name solid comes from the acronym of: 
 
 * Single responsability
 * Open Closed
@@ -13,3 +13,22 @@ Es una serie de normas o reglas para construir codigo, entre ellos se encuentra 
 *  Interface Segregation
 * Dependency Inversion
 
+### Single responsability
+
+A class should be delegated a single responsibility.
+
+### Open Closed
+
+Inheritance and polymorphism should be used to add functionality, new functions should be created and code reuse should be avoided. 
+
+### Liskov Substitution
+
+Any class that is a child of a class must be able to be used as if it were the same parent class. The child class has the ability to use methods of the parent class but appropriate to its functionality. Polymorphism.
+
+### Interface Segregation
+
+The client should not be exposed to methods it doesn't need. This avoid of getting bulky or fat interfaces. 
+
+### Dependecy Inversion
+
+High level modules should not depend on low level modules, but should depend on interfaces. It is based on the principle of abstraction. The functionality of the code should not be affected if the database framework is changed, for example. 
